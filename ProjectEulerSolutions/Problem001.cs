@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace ProjectEulerSolutions
 {
@@ -12,6 +13,8 @@ namespace ProjectEulerSolutions
     {
         public void run()
         {
+            //Create a stopwatch to calculate how long program takes to execute
+            var watch = Stopwatch.StartNew();
             //Create a list to hold all divisible numbers
             List<int> multiples = new List<int>();
             for(int i = 0; i < 1000; i++)
@@ -29,6 +32,10 @@ namespace ProjectEulerSolutions
             }
             //Display the total sum of all numbers to the user!
             Console.Out.WriteLine("The total sum of all of the multiples of 3 and 5 below 1000 is : " + totalSum);
+            watch.Stop();
+            //Display time taken to execute program
+            var elapsedMs = watch.ElapsedMilliseconds;
+            Console.Out.Write("Program completed in : " + elapsedMs + "ms");
         }
     }
 }
