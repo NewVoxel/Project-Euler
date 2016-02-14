@@ -7,3 +7,6 @@ c:\users\newvo\documents\visual studio 2015\Projects\ProjectEulerSolutions\Proje
 C:\Users\newvo\Documents\GitHub\Project-Euler\ProjectEulerSolutions\bin\Debug\ProjectEulerSolutions.exe.config
 C:\Users\newvo\Documents\GitHub\Project-Euler\ProjectEulerSolutions\obj\Debug\ProjectEulerSolutions.exe
 C:\Users\newvo\Documents\GitHub\Project-Euler\ProjectEulerSolutions\obj\Debug\ProjectEulerSolutions.pdb
+C:\Users\newvo\Documents\GitHub\Project-Euler\ProjectEulerSolutions\bin\Debug\ProjectEulerSolutions.exe
+C:\Users\newvo\Documents\GitHub\Project-Euler\ProjectEulerSolutions\bin\Debug\ProjectEulerSolutions.pdb
+C:\Users\newvo\Documents\GitHub\Project-Euler\ProjectEulerSolutions\obj\Debug\ProjectEulerSolutions.csprojResolveAssemblyReference.cache
