@@ -1,0 +1,9 @@
+c:\users\newvo\documents\visual studio 2015\Projects\ProjectEulerSolutions\ProjectEulerSolutions\bin\Debug\ProjectEulerSolutions.exe.config
+c:\users\newvo\documents\visual studio 2015\Projects\ProjectEulerSolutions\ProjectEulerSolutions\bin\Debug\ProjectEulerSolutions.exe
+c:\users\newvo\documents\visual studio 2015\Projects\ProjectEulerSolutions\ProjectEulerSolutions\bin\Debug\ProjectEulerSolutions.pdb
+c:\users\newvo\documents\visual studio 2015\Projects\ProjectEulerSolutions\ProjectEulerSolutions\obj\Debug\ProjectEulerSolutions.exe
+c:\users\newvo\documents\visual studio 2015\Projects\ProjectEulerSolutions\ProjectEulerSolutions\obj\Debug\ProjectEulerSolutions.pdb
+c:\users\newvo\documents\visual studio 2015\Projects\ProjectEulerSolutions\ProjectEulerSolutions\obj\Debug\ProjectEulerSolutions.csprojResolveAssemblyReference.cache
+C:\Users\newvo\Documents\GitHub\Project-Euler\ProjectEulerSolutions\bin\Debug\ProjectEulerSolutions.exe.config
+C:\Users\newvo\Documents\GitHub\Project-Euler\ProjectEulerSolutions\obj\Debug\ProjectEulerSolutions.exe
+C:\Users\newvo\Documents\GitHub\Project-Euler\ProjectEulerSolutions\obj\Debug\ProjectEulerSolutions.pdb
