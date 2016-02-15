@@ -33,10 +33,13 @@ namespace ProjectEulerSolutions
                 {
                     Problem001 problem = new Problem001();
                     problem.run();
+<<<<<<< HEAD
                 } else if (questionNum == 2)
                 {
                     Problem002 problem = new Problem002();
                     problem.run();
+=======
+>>>>>>> origin/master
                 }
             }
         }
