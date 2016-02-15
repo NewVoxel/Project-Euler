@@ -1,6 +1,2 @@
-<<<<<<< HEAD
 Question 1) 233168
 Question 2) 4613732
-=======
-Question 1) 233168
->>>>>>> origin/master
