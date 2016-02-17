@@ -1,8 +1,6 @@
 # Project-Euler
 Solutions to problems found at https://projecteuler.net/ written in C#
 
-
-
 Answers to all questions can be found in the Answers.txt file
 
 To run the programs download all the files as a .zip or clone them into your own repository.
