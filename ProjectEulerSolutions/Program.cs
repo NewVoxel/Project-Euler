@@ -46,6 +46,8 @@ namespace ProjectEulerSolutions
                     default:
                         Console.Out.WriteLine("The question number you entered does not exist!");
                         break;
+                    Problem001 problem = new Problem001();
+                    problem.run();
                 }
             }
         }
