@@ -44,10 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Problem001.cs" />
-<<<<<<< HEAD
     <Compile Include="Problem002.cs" />
-=======
->>>>>>> origin/master
+    <Compile Include="Problem003.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

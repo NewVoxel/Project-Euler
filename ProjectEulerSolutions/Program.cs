@@ -29,17 +29,23 @@ namespace ProjectEulerSolutions
                 }
                 //Execute the code for the desired question by accessing the class containing the desired algorithm.
                 int questionNum = Int32.Parse(args[0]);
-                if(questionNum == 1)
+                switch(questionNum)
                 {
-                    Problem001 problem = new Problem001();
-                    problem.run();
-<<<<<<< HEAD
-                } else if (questionNum == 2)
-                {
-                    Problem002 problem = new Problem002();
-                    problem.run();
-=======
->>>>>>> origin/master
+                    case 1:
+                        Problem001 problem001 = new Problem001();
+                        problem001.run();
+                        break;
+                    case 2:
+                        Problem002 problem002 = new Problem002();
+                        problem002.run();
+                        break;
+                    case 3:
+                        Problem003 problem003 = new Problem003();
+                        problem003.run();
+                        break;
+                    default:
+                        Console.Out.WriteLine("The question number you entered does not exist!");
+                        break;
                 }
             }
         }
