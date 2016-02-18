@@ -55,13 +55,16 @@ namespace ProjectEulerSolutions
                 for(int j = 999; j > 0; j--)
                 {
                     product = i * j;
-                    if(isPalindrome(product))
+                    if(product > largestPalindrome)
                     {
-                        if(product > largestPalindrome)
+                        if(isPalindrome(product))
                         {
                             largestPalindrome = product;
                             break;
                         }
+                    } else
+                    {
+                        break;
                     }
                 }
             }
