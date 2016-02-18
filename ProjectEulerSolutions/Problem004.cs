@@ -50,9 +50,9 @@ namespace ProjectEulerSolutions
              * to see if they're palindromes. If proudct is palindrome break inner loop early
              * since any other found palindrome for that iteration will be lower than the 
              * currently found one. */
-            for(int i = 999; i > 0; i--)
+            for(int i = 999; i > 100; i--)
             {
-                for(int j = 999; j > 0; j--)
+                for(int j = 999; j > 100; j--)
                 {
                     product = i * j;
                     if(product > largestPalindrome)
