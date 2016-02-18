@@ -43,11 +43,13 @@ namespace ProjectEulerSolutions
                         Problem003 problem003 = new Problem003();
                         problem003.run();
                         break;
+                    case 4:
+                        Problem004 problem004 = new Problem004();
+                        problem004.run();
+                        break;
                     default:
                         Console.Out.WriteLine("The question number you entered does not exist!");
                         break;
-                    Problem001 problem = new Problem001();
-                    problem.run();
                 }
             }
         }
