@@ -19,25 +19,17 @@ namespace ProjectEulerSolutions
             //Create a stopwatch to calculate how long program takes to execute
             var watch = Stopwatch.StartNew();
 
-            //Set up variables
-            bool isDivisible;
             //Loop through numbers in increments of 20 until conditions are met
             //Use 20 because it has to be divided by this amount so we may awell
             //save ourselves from iterating over 19 pointless steps
             for(int i = 20; true; i+=20)
             {
-                isDivisible = true;
                 //If current number is divisible by numbers 1-20 leave the loop
-                for(int j = 20; j > 10; j--)
-                {
-                    if(i % j != 0)
-                    {
-                        isDivisible = false;
-                        break;
-                    }
-                }
-                //Present our results
-                if (isDivisible)
+                //No need to check numbers 1-10 since if they are divisible by
+                //Numbers 11-20 we already know they are
+                if ((i % 11) == 0 && (i % 12) == 0 && (i % 13) == 0 && (i % 14) == 0 
+                    && (i % 15) == 0 && (i % 16) == 0 && (i % 17) == 0 && (i % 18) == 0 
+                    && (i % 19) == 0 && (i % 20) == 0)
                 {
                     Console.Out.WriteLine("The smallest number that is evenly divisible by numbers 1-20 is : " + i);
                     break;
