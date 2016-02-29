@@ -55,6 +55,10 @@ namespace ProjectEulerSolutions
                         Problem006 problem006 = new Problem006();
                         problem006.run();
                         break;
+                    case 7:
+                        Problem007 problem007 = new Problem007();
+                        problem007.run();
+                        break;
                     default:
                         Console.Out.WriteLine("The question number you entered does not exist!");
                         break;
