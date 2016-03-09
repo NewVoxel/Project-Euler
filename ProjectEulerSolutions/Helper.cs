@@ -37,5 +37,31 @@ namespace ProjectEulerSolutions
             }
             return primes;
         }
+
+        /// <summary>
+        /// Returns the number of divisors of any given number
+        /// </summary>
+        /// <param name="number">How many divisors in this number</param>
+        /// <returns>Number of divisors</returns>
+        public int NumberOfDivisors(int number)
+        {
+            int numOfDivisors = 0;
+            int sqrt = (int)Math.Sqrt(number);
+
+            for (int i = 1; i <= sqrt; i++)
+            {
+                if (number % i == 0)
+                {
+                    numOfDivisors += 2;
+                }
+            }
+            //Correction if the number is a perfect square
+            if (sqrt * sqrt == number)
+            {
+                numOfDivisors--;
+            }
+
+            return numOfDivisors;
+        }
     }
 }

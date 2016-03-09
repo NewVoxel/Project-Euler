@@ -10,25 +10,18 @@ namespace ProjectEulerSolutions
         public void run()
         {
             var watch = Stopwatch.StartNew();
+            Helper MathHelper = new Helper();
 
-            double triangleNumber = 1;
-            double naturalNumber = 1;
-            int factorCounter = 0;
+            int triangleNumber = 0;
+            int i = 1;
 
-            while(true)
+            while (MathHelper.NumberOfDivisors(triangleNumber) < 500)
             {
-                factorCounter = 0;
-                for(int i = 1; i <= triangleNumber; i++)
-                {
-                    if (triangleNumber % i == 0)
-                        factorCounter++;
-                }
-                if (factorCounter >= 200)
-                    break;
-                naturalNumber++;
-                triangleNumber += naturalNumber;
+                triangleNumber += i;
+                i++;
             }
-            Console.Out.WriteLine("The first triangle number with at least 500 factors is: " + triangleNumber);
+
+            Console.Out.WriteLine("The first triange number with atleast 500 divisors is: " + triangleNumber);
 
             watch.Stop();
             var elapsedMs = watch.ElapsedMilliseconds;
